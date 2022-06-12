@@ -5,18 +5,16 @@ body {
     font-weight: 400;
     background-color: #F6F8F9;
 }
-.container {
+.container_news {
     width: 100%;
     max-width: 1440px;
-    padding: 0 15px;
     margin: 0 auto;
 }
-
-/* ფონტის დამატება არ დამავიწყდეს */
-
-
-/* ===============  Header =============== */
-
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 140px; 
+}
 .forFlex{
     display: flex;
     align-items: center;
@@ -25,8 +23,17 @@ body {
 .flex {
     display: flex;
 }
+
+/* ფონტის დამატება არ დამავიწყდეს */
+
+
+/* ===============  Header =============== */
+
+
 header {
-    padding: 8.5px 0;
+    padding: 10px 20px;
+    max-width: 1440px;
+    margin: 0 auto; 
 }
 .header_menu {
     display: flex;
@@ -133,18 +140,19 @@ li .active {
     font-size: 24px;
     font-weight: bold;
     color: #202124;
-    margin-right: 100px;
 }
-.news_text button {
+.arrows button {
     height: 10px;
     border: none;
 }
 .right_arrow{
     transform: rotate(180deg);
-    padding-right: 40px;
+    padding-right: 20px;
+    cursor: pointer;
 }
 .back_arrow {
     opacity: 50%;
+    cursor: pointer;
 }
 .news_title {
     margin-bottom: 20px;
@@ -168,6 +176,8 @@ li .active {
     color: #A6ADB4;
     max-width: 380px;
     line-height: 26px;
+    white-space:nowrap;
+    overflow:hidden;
 }
 .time p {
     font-family: "acumin-pro";
@@ -178,4 +188,42 @@ li .active {
 }
 .time {
     margin-top: 10px;
+}
+
+/*      TRENDING      */
+
+.trending_title h2 {
+    font-family: "Helvetica";
+    font-size: 24px;
+    font-weight: bold;
+    color: #202124;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.trending_div{
+    max-width: 360px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 40px;
+}
+.trending_text h4 {
+    font-family: Helvetica;
+    font-weight: bold;
+    line-height: 20px;
+    color: #202124;
+    margin: 40px 0 10px 0;
+}
+.trending_text p {
+    width: 280px;
+    font-family: Acumin Pro;
+    /* დავამატო ეს ფონტი */
+    font-size: 13px;
+    color: #A6ADB4;
+    line-height: 23px;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.trending_text {
+    margin-left: 40px;
 }

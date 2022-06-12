@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="navbar">
             <div class="header_inner forFlex">
                 <div class="logo">
                     <a class="logo" href="Index.html">Logo</a>
@@ -52,7 +52,7 @@
             </div>
         </div>
     </header>
-    <section class="news_section flex">
+    <div class="news_section flex container_news">
         <div class="world_news">
             <div class="world_news_text">
                 <h2>World News</h2>
@@ -64,7 +64,7 @@
             </div>
         </div>
         <div class="info_news">
-                <div class="news_text flex">
+                <div class="news_text forFlex">
                     <h2>More News</h2>
                     <div class="arrows">
                         <button class="back_arrow">
@@ -100,6 +100,62 @@
                 </article> 
             </div>
         </div>
-    </section>
+    </div>
+    <div class="container">
+        <div class="trending_section">
+            <div class="trending_title forFlex">
+                <h2>TRENDING</h2>
+                <div class="arrows">
+                    <button class="back_arrow">
+                        <img class="left_arrow" src="./assets/arrow back.svg" alt="left arrow">
+                    </button>
+                    <button class="arrow">
+                        <img class="right_arrow" src="./assets/arrow back.svg" alt="right arrow">
+                    </button>
+                </div>
+            </div>
+            <div class="trending_div ">
+                <a href="#" class="slides_trending">
+                    <article class="trend_art">
+                        <img src="assets/Image.png" alt="Trending Image">
+                        <div class="trending_text">
+                            <h4>Dolore magna aliqua</h4>
+                            <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                            <div class="time flex">
+                                <img src="assets/time.svg" alt="Clock Image">
+                                <p>2m ago</p>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+                <a href="#" class="slides_trending">
+                    <article class="trend_art">
+                        <img src="assets/annie-spratt-216507-unsplash.png" alt="Trending Images">
+                        <div class="trending_text">
+                            <h4>Morbi eleifend a libero</h4>
+                            <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                            <div class="time flex">
+                                <img src="assets/time.svg" alt="Clock Image">
+                                <p>1h ago</p>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+                <a href="#" class="slides_trending">
+                    <article class="trend_art">
+                        <img src="assets/carlos-hevia-628890-unsplash.png" alt="Trending Images">
+                        <div class="trending_text">
+                            <h4>Morbi eleifend a libero</h4>
+                            <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                            <div class="time flex">
+                                <img src="assets/time.svg" alt="Clock Image">
+                                <p>3h ago</p>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </div>
+        </div>
 </body>
 </html>
