@@ -1,0 +1,65 @@
+body {
+    /* font-family: 'Poppins', sans-serif; 
+    font-family: 'Work Sans', sans-serif; */
+    font-size: 16px;
+    color: #A6ADB4;
+    font-weight: 400;
+    background-color: #F6F8F9;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* ფონტის დამატება არ დამავიწყდეს */
+
+
+/* ===============  Header =============== */
+
+.forFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header {
+    padding: 19px 0;
+}
+.header_menu {
+    display: flex;
+}
+.header_menu a {
+    font-size: 11px;
+    line-height: 20px;
+    color: #343638;
+    opacity: 50%;
+    text-transform: uppercase;
+}
+li .active {
+    opacity: 1;
+}
+
+.menu-list-item{
+    position: relative;
+    margin-left: 22px;
+    font-weight: bold; 
+    /* font-weight: bold;  წავშალო როცა ფონტებს დავამეტებ */
+}
+.logo{
+    font-family: "Helvetica";
+    font-size: 13px;
+    font-weight: bold;
+    color: #FA6980;
+    text-transform: uppercase;
+}
+.user {
+    margin-left: 45px;
+}
+.user img {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    clip-path: circle(50% at 50% 50%);
+    cursor: pointer;
+}
