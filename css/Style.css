@@ -1,6 +1,5 @@
 body {
-    /* font-family: 'Poppins', sans-serif; 
-    font-family: 'Work Sans', sans-serif; */
+    font-family: "Helvetica";
     font-size: 16px;
     color: #A6ADB4;
     font-weight: 400;
@@ -23,8 +22,11 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+.flex {
+    display: flex;
+}
 header {
-    padding: 19px 0;
+    padding: 8.5px 0;
 }
 .header_menu {
     display: flex;
@@ -44,7 +46,7 @@ li .active {
     position: relative;
     margin-left: 22px;
     font-weight: bold; 
-    /* font-weight: bold;  წავშალო როცა ფონტებს დავამეტებ */
+    /*ფონტებს დავამეტებ */
 }
 .logo{
     font-family: "Helvetica";
@@ -62,4 +64,118 @@ li .active {
     object-fit: contain;
     clip-path: circle(50% at 50% 50%);
     cursor: pointer;
+}
+.burger_menu{
+    display:none;
+}
+
+/*    World news    */
+
+
+.world_news .world_news_text {
+    max-width: 840px;
+    padding: 175px 135px;
+    background-image: url("../assets/Image.jpg");
+    background-position: center;
+    background-size: cover; 
+}
+.world_news_text h2 {
+    font-family: "Helvetica";
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 42px;
+    padding-bottom: 40px;
+    border-bottom: solid 2px #FFFFFF;
+}
+.world_news_text article {
+    padding-top: 40px;
+}
+.world_news_text article h4 {
+    font-family: "Helvetica";
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 34px;
+}
+.world_news_text article p {
+    font-family: "Helvetica";
+    font-weight: regular;
+    color: #FFFFFF;
+    margin: 11px 0 32px;
+    line-height: 26px;
+}
+.world_news_text article button {
+    font-family: "Helvetica";
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FA6980;
+    border-radius: 6px;
+    border-style: none;
+    text-transform: uppercase;
+    padding: 15px 34px;
+}
+.world_news_text article button:hover {
+    opacity: 70%;
+}
+.info_news{
+    max-width: 400px;
+    margin: 100px auto;
+}
+.news_text {
+    padding-bottom: 40px;
+    border-bottom: solid 3px #EBEDED; 
+}
+.news_text h2 {
+    font-family: "Helvetica";
+    font-size: 24px;
+    font-weight: bold;
+    color: #202124;
+    margin-right: 100px;
+}
+.news_text button {
+    height: 10px;
+    border: none;
+}
+.right_arrow{
+    transform: rotate(180deg);
+    padding-right: 40px;
+}
+.back_arrow {
+    opacity: 50%;
+}
+.news_title {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: bold;
+    color: #FA6980;
+    text-transform: uppercase;
+}
+.article_title {
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: bold;
+    color: #202124;
+}
+.article_par{
+    font-family: "acumin-pro";
+    font-size: 16px;
+    font-weight: regular;
+    color: #A6ADB4;
+    max-width: 380px;
+    line-height: 26px;
+}
+.time p {
+    font-family: "acumin-pro";
+    font-size: 13px;
+    font-weight: regular;
+    color: #A6ADB4; 
+    padding-left: 10px;
+}
+.time {
+    margin-top: 10px;
 }
