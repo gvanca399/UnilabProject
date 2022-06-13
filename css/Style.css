@@ -227,3 +227,71 @@ li .active {
 .trending_text {
     margin-left: 40px;
 }
+
+
+/*      happening section       */
+
+.happening_title {
+    font-family: "Helvetica";
+    font-size: 24px;
+    font-weight: bold;
+    color: #202124;
+    text-transform: uppercase;
+    margin: 80px 0 40px 0;
+}
+
+.large_travel {
+    width: 760px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    padding: 40px 0 40px 40px;
+    background-color: transparent;
+    border-radius: 6px; 
+}
+
+.large_div .city{
+    background-image: url(../assets/city-largimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.large_div .travel {
+    background-image: url(../assets/travel-largeimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.large_div h3 {
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 235px;
+    text-transform: uppercase;
+}
+.large_text h4 a {
+    display: inline-block;
+    font-family: "Helvetica";
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.larg_text_par p {
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: regular;
+    color: #FFFFFF;
+    margin: 10px 0 30px;
+    overflow: hidden;
+}
+.small_div img {
+    margin-bottom: 25px;
+}
+.small_div h4 a {
+    font-size: 16px;
+    color:#202124 ;
+    font-weight: bold;
+}
+.time a {
+    color: #A6ADB4;
+    text-decoration:underline;
+}
+
