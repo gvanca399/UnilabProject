@@ -295,3 +295,65 @@ li .active {
     text-decoration:underline;
 }
 
+/*     footer_section      */
+footer {
+    background-color: #A6ADB4;
+
+}
+.footer_section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 54px 140px; 
+}
+.footer_nav .logo {
+    font-family: "Helvetica";
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-right: 55px;
+    line-height: 20px;
+}
+.footer_ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 378px;
+}
+.footer_nav_li {
+    margin-right: 60px;
+    margin-bottom: 10px;
+    width: 35px;
+}
+.footer_nav_li a {
+    font-family: "Helvetica";
+    font-size: 13px;
+    font-weight: bold;
+    color: #CBD0D3; 
+}
+.input-icon{
+    display: flex;
+    border-radius: 6px;
+    border: solid 2px #ffffff1a;
+    cursor: pointer;
+    margin: 0 140px 15px 100px;
+}
+.input-icon input {
+    background-color: transparent;
+    border: transparent;
+    padding: 15px 20px;
+    width: 230px;
+}
+.send-button{
+    background-color: transparent;
+    border-color: transparent; 
+    cursor: pointer;
+}
+.email p {
+    margin-left: 100px;
+    font-family: "Helvetica";
+    font-size: 11px;
+    color: #CBD0D3;
+}
+.social_li {
+    margin-left: 30px; 
+}
