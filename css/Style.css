@@ -357,3 +357,195 @@ footer {
 .social_li {
     margin-left: 30px; 
 }
+
+
+/* second page */
+
+.top_corner a {
+    margin-right: 20px;
+}
+.top_corner_nav ul li {
+    margin-left: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.top_corner_nav ul{
+    display: flex;
+    align-items: center;
+}
+.top_corner_nav a{
+    font-family: "Helvetica";
+    font-size: 11px;
+    font-weight: bold;
+    color: #202124;
+}
+.top_corner_nav li:first-child::after{
+    content: '\002F';
+    font-family: "Helvetica";
+    font-size: 11px;
+    font-weight: bold;
+    color: #202124; 
+}
+.top_corner_nav li:last-child a{
+    color: #A6ADB4; 
+}
+.SecondPage_title button {
+    background-color: transparent;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+.SecondPage_title button .filter:hover{
+    transform: scale(1.5);
+}
+body .SecondPage_search_section .search_section{
+    width: 50%;
+    position: relative;
+}
+body .SecondPage_search_section .search_section .WordNewsIMG {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; 
+}
+body .SecondPage_search_section .search_section .SecondPage_search_section_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    flex-direction: column;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+body .SecondPage_search_section .search_section .SecondPage_search_section_text h2 {
+    font-family: "Helvetica";
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 42px;
+}
+body .SecondPage_search_section .search_section .SecondPage_search_section_text h2::after {
+    content: " ";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 40px;
+    background-color: #FA6980;
+    margin-top: 25px;
+}
+
+body .SecondPage_search_section .search_section .SecondPage_search_section_text p{
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 26px;
+    padding: 20px 0;
+    overflow: hidden;
+    max-height: 42px;
+}
+
+body .SecondPage_search_section .search_section .SecondPage_search_section_text .avatar{
+    width: 40px;
+    height: 40px;
+    clip-path: circle(50% at 50% 50%);
+    margin-top: 40px;
+    border: solid 2px #FFFFFF;
+    border-radius: 50%; 
+}
+body .SecondPage_div .SecondPage_search_section .search{
+    width: 50%;
+    height: 100%;
+    padding: 0 110px;
+    margin: auto;
+}
+body .SecondPage_div .SecondPage_search_section .search .inputs_box .input{
+    margin-bottom: 40px;
+}
+body .SecondPage_div .SecondPage_search_section .search .inputs_box .input label {
+    font-family: "acumin-pro";
+    font-size: 13px;
+    font-weight: bold;
+    color: #202124
+}
+body .SecondPage_div .SecondPage_search_section .search .inputs_box .input input {
+    margin-top: 10px;
+    padding: 13px 20px;
+    font-family: "Helvetica";
+    font-size: 13px;
+    font-weight: normal;
+    color: #A6ADB4;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 6px;
+}
+body .SecondPage_div .SecondPage_search_section .search .inputs_box button {
+    font-family: "Helvetica";
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #FA6980;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 6px;
+}
+body .SecondPage_div .SecondPage_search_section .search .inputs_box button:hover{
+    transform: scale(1.5);
+}
+
+body .SecondPage_div .SecondPage_info .text_box{
+    padding: 40px 0;
+    margin-bottom: 40px;
+    border-top: solid 2px #EBEDED;
+    border-bottom: solid 2px #EBEDED;
+}
+body .SecondPage_div .SecondPage_info .text_box .SecondPage_title .title{
+    margin-right: 75px;
+    font-family: "acumin-pro";
+    font-size: 24px;
+    font-weight: bold;
+    color: #202124;
+    line-height: 34px; 
+}
+body .SecondPage_div .SecondPage_info .text_box .SecondPage_title .avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
+    margin-bottom: 20px; 
+}
+body .SecondPage_div .SecondPage_info .text_box .text {
+    column-count: 2;
+    max-width: 735px;
+}
+body .SecondPage_div .SecondPage_info .text_box .text p {
+    font-family: "Helvetica";
+    font-size: 14px;
+    font-weight: normal;
+    color: #A6ADB4;
+    line-height: 26px; 
+}
+body .SecondPage_div .SecondPage_info .SecondPage_article{
+    border-bottom: solid 2px #EBEDED;
+    margin-bottom: 160px;
+}
+body .SecondPage_div .SecondPage_info .SecondPage_article img{
+    width: 100%;
+    border-radius: 6px; 
+}
+body .SecondPage_div .SecondPage_info .SecondPage_article pre{
+    font-family: "Helvetica";
+    font-size: 14px;
+    font-weight: normal;
+    color: #A6ADB4;
+    line-height: 26px;
+    margin: 40px 0;
+    max-width: 760px;
+    white-space: pre-wrap;
+}

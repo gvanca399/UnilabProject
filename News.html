@@ -2,11 +2,162 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Inolab Project">
+    <meta name="keywords" content="HTMl, CSS, JavaScript, Unilab, travel, news Unilab">
+    <meta name="author" content="Gvantsa Baidoshvili">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:url"                content="" />
+    <meta property="og:type"               content="Homepage" />
+    <meta property="og:title"              content="Unilab Project" />
+    <meta property="og:description"        content="Homework for Unilab Internship project" />
+    <meta property="og:image"              content="" />
+    <link rel="stylesheet" href="./css/Reset.css">
+    <link rel="stylesheet" href="./css/Style.css">
+    <title>Unilab Project</title>
 </head>
 <body>
-    
+    <header>
+        <div class="navbar">
+            <div class="header_inner forFlex">
+                <div class="logo">
+                    <a class="logo" href="Index.html">Logo</a>
+                </div>
+            <nav class="header_menu">
+                <ul class="menu-list forFlex">
+                    <li class="menu-list-item">
+                        <a class="active" href="Index.html">Home</a>
+                    </li>
+                    <li class="menu-list-item">
+                        <a href="Api.html">Discovery</a>
+                    </li>
+                    <li class="menu-list-item">
+                        <a href="#">Photos</a>
+                    </li>
+                    <li class="menu-list-item">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="burger_menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="burger-menu">
+                            <a class="burger-logo" href="index.html">Logo</a>
+                            <ul class="burger-ul">
+                                            <li class="burger-li"><a class="burger-li-a" href="index.html"><img src="assets/home.svg" alt="Icon"> Home</a></li>
+                                            <li class="burger-li"><a class="burger-li-a" href="#"><img src="assets/discover.svg" alt="Icon"> Discovery</a></li>
+                                            <li class="burger-li"><a class="burger-li-a" href="#"><img src="assets/photos.svg" alt="Icon"> Photos</a></li>
+                                            <li class="burger-li"><a class="burger-li-a" href="#"><img src="assets/mail.svg" alt="Icon">Contact</a></li>
+                                            <li class="burger-li"><a class="burger-li-a" href="#"><img src="assets/christopher-campbell-28567-unsplash.svg" alt="User">Profile</a></li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="user">
+                    <img src="assets/christopher-campbell-28567-unsplash.svg" alt="User Image">
+                </div>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <div class="SecondPage_div container">
+        <div class="SecondPage_title forFlex">
+            <div class="top_corner forFlex">
+                <a href="Index.html"><img src="./assets/home.svg" alt="home logo"></a>
+                <div class="top_corner_nav">
+                    <ul>
+                        <li><a href="#">Story</a></li>
+                        <li><a href="#">World News</a></li>
+                    </ul>
+                </div>
+            </div>
+            <button>
+                <img class="filter" src="./assets/filter.svg" alt="filter">
+            </button>
+        </div>
+        <div class="SecondPage_search_section flex">
+            <div class="search_section">
+                <img class="WordNewsIMG" src="assets/secondPageWordNewsIMG.png" alt="beautyful pic">
+                <div class="SecondPage_search_section_text">
+                    <h2>World News</h2>
+                    <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto vidit.</p>
+                    <img class="avatar" src="assets/avatar.svg" alt="avatar">
+                </div>
+            </div>
+            <div class="search">
+                <div class="inputs_box">
+                    <div class="input">
+                        <label for="date">Select a date</label>
+                        <input class="date" type="text" name="date" id="date" placeholder="Select..." onfocus="(this.type='date')"> 
+                    </div>
+                    <div class="input">
+                        <label for="keywords">Enter the first keywords</label>
+                        <input type="text" name="keywords" id="keywords">
+                    </div>
+                    <button class="search_button">
+                        search
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="SecondPage_info ">
+            <div class="text_box flex">
+                <div class="SecondPage_title">
+                    <img class="avatar" src="assets/avatar.svg" alt="avatar">
+                    <h4 class="title">Phasellus eu nulla malesuada,</h4>
+                </div>
+                <div class="text">
+                    <p>Dignissim rutrum ridiculus lacinia phasellus torquent ad aliquet, nisi dictum cubilia class habitasse commodo, semper potenti nec ac per egestas. Ac volutpat ullamcorper phasellus montes sollicitudin litora ridiculus mi conubia inceptos euismod odio curabitur, tortor eros porta venenatis facilisis quam blandit in ut lobortis consequat justo. Hac libero quisque tortor conubia iaculis Nascetur himenaeos morbi gravida porta sapien justo aliquam pellentesque dapibus curae, cursus ultrices suspendisse cras ligula id aenean vulputate taciti, eleifend eros bibendum scelerisque lobortis venenatis nulla tristique tempus. Quisque eleifend vulputate.</p>
+                    <div class="time flex">
+                        <img src="assets/time.svg" alt="time">
+                        <p>2 min ago</p>
+                    </div>
+                </div>
+            </div>
+            <article class="SecondPage_article">
+                <img src="assets/elephantBigImg.png" alt="Elephant">
+                <pre>Lorem ipsum dolor sit amet consectetur adipiscing elit sodales primis, mollis viverra conubia ligula inceptos laoreet libero tortor, nascetur non habitasse iaculis tempor nec egestas fames augue, platea porta integer nostra curae sed arcu. Nec ut diam vulputate ante scelerisque ridiculus lobortis orci mi curae himenaeos quis, senectus curabitur ullamcorper a porttitor nibh fermentum nisi cum morbi aliquam. Vitae pretium vestibulum dui gravida in potenti interdum, class rhoncus neque eget magna at
+                <br>    Ullamcorper porttitor non pharetra cursus nisl mollis pellentesque primis penatibus platea, dictum himenaeos eget mi bibendum ad molestie aliquet curae quis quisque, nunc duis ac at elementum dui integer viverra tempus. Lacinia bibendum diam senectus egestas nec molestie convallis aenean hac tempus, vivamus purus congue euismod fringilla cursus donec est eu blandit platea, feugiat vitae netus orci habitant accumsan placerat morbi nostra.</pre>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_section flex ">
+            <nav class="footer_nav flex">
+                <a class="logo" href="index.html">Logo</a>
+                <ul class="footer_ul">
+                    <li class="footer_nav_li"><a href="index.html">Home</a></li>
+                    <li class="footer_nav_li"><a href="#">About</a></li>
+                    <li class="footer_nav_li"><a href="#">Testomonials</a></li>
+                    <li class="footer_nav_li"><a href="#">Discovery</a></li>
+                    <li class="footer_nav_li"><a href="#">Help</a></li>
+                    <li class="footer_nav_li"><a href="#">Advertise</a></li>
+                    <li class="footer_nav_li"><a href="#">Photos</a></li>
+                    <li class="footer_nav_li"><a href="#">Terms</a></li>
+                    <li class="footer_nav_li"><a href="#">Integrations</a></li>
+                    <li class="footer_nav_li"><a href="#">Contact</a></li>
+                    <li class="footer_nav_li"><a href="#">Guidlines</a></li>
+                    <li class="footer_nav_li"><a href="#">Careers</a></li>
+                </ul>
+            </nav>
+            <div class="email">
+                <div class="input-icon">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <button class="send-button" id="send">
+                        <img src="assets/send.svg" alt="Send Icon">
+                    </button>
+                </div>
+                <p>Stay in touch with us for the freshest products!</p>
+            </div>
+            <div class="social_icons flex">
+                <ul class="social_ul flex">
+                    <li class="social_li"><a href="#"><img src="assets/instagram.svg" alt="Instagram"></a></li>
+                    <li class="social_li"><a href="#"><img src="assets/twitter.svg" alt="Twitter"></a></li>
+                    <li class="social_li"><a href="#"><img src="assets/facebook.svg" alt="Facebook"></a></li>
+                    <li class="social_li"><a href="#"><img src="assets/web.svg" alt="Web"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
